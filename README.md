@@ -4,7 +4,6 @@
 Remove my [rol](https://galaxy.ansible.com/fvarovillodres/lamp/) of LAMP stack on Debian/Ubuntu
 
 ## Instalation
-h
 
 $ ansible-galaxy install fvarovillodres.rmlamp
 
