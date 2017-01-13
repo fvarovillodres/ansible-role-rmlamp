@@ -1,0 +1,5 @@
+---
+  - name: Remove mysql
+    apt: name=mysql-server state=absent
+  - name: Remove python-mysqldb
+    apt: name=python-mysqldb state=absent

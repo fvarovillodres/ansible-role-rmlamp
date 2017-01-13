@@ -1,0 +1,9 @@
+---
+  - name: Remove php5
+    apt: name=php5 state=absent
+  - name: Remove packages php5
+    apt: name={{ item }}
+         state=absent
+    with_items:
+          - php5-mysql
+          - libapache2-mod-php5
